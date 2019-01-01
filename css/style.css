@@ -1,0 +1,33 @@
+.header{
+	position: fixed;
+	width: 100%;
+	transition: background .15s linear;
+}
+.header-container{
+	padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	max-width: 940px;
+}
+.list-ul{
+	display: flex;
+	justify-content: flex-end;
+    
+}
+.nav-list{
+	margin-left: 20px;
+	font-family: Roboto;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+}
+.nav-list:hover{
+    color: #00e0d0;
+}
+
+a{
+	text-decoration: none;
+}
