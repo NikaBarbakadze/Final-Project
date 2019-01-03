@@ -105,25 +105,94 @@ a{
 
 .grid{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 240px 540px;
+	grid-column-gap: 100px;
 	height: 400px;
+	justify-content: center;
 	
 }
 
 .logolarge{
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content2{
+	width: 540px;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 .title2{
+	margin-top: 70px;
 	text-transform: uppercase;
 	font-family: Playfair Display, sans-serif;
 	font-size: 22px;
-	margin-left: 100px;
+	color: #413d4b
+
+	
 	
 }
 
 .paragraph2{
+	margin-top: 10px;
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   word-spacing: 2px;
+	line-height: 1.8;
+	font-weight: 300;
+
 	
 }
+.learnmore2{
+	margin-top: 30px;
+}
+.section2{
+	width: 1600px;
+	height: 550px;
+	text-align: center;
+	background-image: url("../img/backgrounds/video__bg.jpg");
+	margin: 0px auto 0px auto;
+    z-index: 1;
+
+}
+.videoicon{
+	display: inline;
+	margin-top: 220px;
+}
+.titlevideo{
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 16px;
+	margin-top: 30px;
+}
+.videolink{
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+    .header{ width: 1349px;
+	height: 670px;
+	text-align: center;
+	background-image: url("../img/backgrounds/about__bg.jpg");
+	margin: 0px auto 0px auto;
+    z-index: 1;   } 
+    .grid{
+	display: grid;
+	grid-template-columns: 240px 540px;
+	grid-column-gap: 100px;
+	width: 1349px;
+	height: 400px;
+	justify-content: center;}
+	.section2{
+	width: 1349px;
+	height: 550px;
+	text-align: center;
+	background-image: url("../img/backgrounds/video__bg.jpg");
+	margin: 0px auto 0px auto;
+    z-index: 1; }}
