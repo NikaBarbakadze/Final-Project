@@ -57,6 +57,7 @@ a{
 	display: inline-block;
     color: white;
     font-family: Playfair Display;
+    font-weight: 900;
     font-size: 32px;
     margin:150px auto 0px auto;
     text-transform: capitalize;
@@ -128,22 +129,17 @@ a{
 	margin-top: 70px;
 	text-transform: uppercase;
 	font-family: Playfair Display, sans-serif;
+	font-weight: 900;
 	font-size: 22px;
-	color: #413d4b
-
-	
-	
+	color: #413d4b	
 }
-
 .paragraph2{
 	margin-top: 10px;
-   font-family: Roboto, sans-serif;
-   font-size: 14px;
-   word-spacing: 2px;
-	line-height: 1.8;
-	font-weight: 300;
-
-	
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    line-height: 1.8;
+    font-weight: 300;
 }
 .learnmore2{
 	margin-top: 30px;
@@ -172,6 +168,47 @@ a{
 .videolink{
 	text-decoration: none;
 }
+.section3{
+	height: 750px;
+}
+.section3title{
+	font-family: Playfair Display, sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 22px;
+	color: #413d4b;
+	text-align: center;
+    margin-top: 70px;
+}
+.section3paragraph{
+	font-family: Playfair Display, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    color: #2f2d35;
+    letter-spacing: 1px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 250px;
+  grid-template-areas: "Screen Brush App" "Cyrcle Game Love";
+  justify-content: center;
+  margin-top: 65px;
+  }
+
+.Screen { grid-area: Screen; }
+
+.Brush { grid-area: Brush; }
+
+.App { grid-area: App; }
+
+.Cyrcle { grid-area: Cyrcle; }
+
+.Game { grid-area: Game; }
+
+.Love { grid-area: Love; }
 
 
 
