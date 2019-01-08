@@ -1,7 +1,6 @@
 .header{
-
-	width: 1600px;
-	height: 670px;
+	max-width: 1600px;
+	max-height: 670px;
 	text-align: center;
 	background-image: url("../img/backgrounds/about__bg.jpg");
 	margin: 0px auto 0px auto;
@@ -233,11 +232,92 @@ a{
 	margin: 0px auto 0px auto;
     z-index: 1;
 }
+.section4title{
+	position: absolute;
+	top: 65px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	font-family: Playfair Display, sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.section4paragraph{
+    position: absolute;
+    top: 100px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: Playfair Display, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+    letter-spacing: 1px;
+    color: #f9f9f9;
 
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px;
+  grid-template-rows: 305px;
+  grid-column-gap: 20px;
+  top: 180px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  position: absolute;
+  justify-content: center;
+}
 
+.mm{
+	width: 220px;
+	border: 0.5px solid #7e7993;
+}
+.mmm{
+	background-color: #fff;
+	width: 220px;
+	height: 230px;
+	z-index: 200;
+}
+.section4gridtitle{
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+}
+.section4gridparagraph{
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: #fafafa;
+	text-align: center;
+	margin-top: 10px;
+}
+.section4endingp{
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #f3f3f3;
+	position: absolute;
+	top: 560px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+.learnmore3{
+	margin-top: 600px;
+}
 
 @media only screen and (max-width: 1366px) {
-    .header{ width: 1349px;
+    .header{ max-width: 1349px;
 	height: 670px;
 	text-align: center;
 	background-image: url("../img/backgrounds/about__bg.jpg");
@@ -247,15 +327,15 @@ a{
 	display: grid;
 	grid-template-columns: 240px 540px;
 	grid-column-gap: 100px;
-	width: 1349px;
+	max-width: 1349px;
 	height: 400px;
 	justify-content: center;}
 	.section2{
-	width: 1349px;
+	max-width: 1349px;
 	height: 550px;
 	text-align: center;
 	background-image: url("../img/backgrounds/video__bg.jpg");
 	margin: 0px auto 0px auto;
     z-index: 1; }
     .section4{
-	width: 1349px;}
+	max-width: 1349px;}
