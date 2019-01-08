@@ -169,7 +169,7 @@ a{
 	text-decoration: none;
 }
 .section3{
-	height: 750px;
+	height: 700px;
 }
 .section3title{
 	font-family: Playfair Display, sans-serif;
@@ -180,7 +180,7 @@ a{
 	text-align: center;
     margin-top: 70px;
 }
-.section3paragraph{
+.section3paragraph1{
 	font-family: Playfair Display, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -194,21 +194,45 @@ a{
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 250px 250px;
   grid-template-areas: "Screen Brush App" "Cyrcle Game Love";
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   justify-content: center;
   margin-top: 65px;
   }
 
-.Screen { grid-area: Screen; }
-
-.Brush { grid-area: Brush; }
-
-.App { grid-area: App; }
-
-.Cyrcle { grid-area: Cyrcle; }
-
-.Game { grid-area: Game; }
-
-.Love { grid-area: Love; }
+.section3content{
+	text-align: center;
+	margin-top: 20px;
+}
+.section3icon{
+	height: 50px;
+}
+.section3gridtitles{
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	justify-content: center;
+	margin-top: 30px;
+	color: #413d4b;
+}
+.section3paragraph2{
+	margin: 25px auto 0px auto;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    line-height: 1.8;
+    font-weight: 300;
+    width: 250px;
+    color: #333333;
+}
+.section4{
+	width: 1600px;
+	height: 710px;
+	text-align: center;
+	background-image: url("../img/backgrounds/team__bg.jpg");
+	margin: 0px auto 0px auto;
+    z-index: 1;
+}
 
 
 
@@ -232,4 +256,6 @@ a{
 	text-align: center;
 	background-image: url("../img/backgrounds/video__bg.jpg");
 	margin: 0px auto 0px auto;
-    z-index: 1; }}
+    z-index: 1; }
+    .section4{
+	width: 1349px;}
