@@ -96,7 +96,7 @@
       border: 1px solid white;
       margin-left: 5px;
       margin-right: 5px; 
-      margin-bottom: 10px; }
+      margin-bottom: 20px; }
 
     .slider-dot-item.is-active {
       border-color: transparent;
@@ -633,36 +633,36 @@
 	        max-width: 1903px; }
 /*Media For 1920px End*/
 
-/*Media For 1366px Start*/
-    @media only screen and (width: 1366px) {
+/*Media For 640px Start*/
+    @media only screen and (min-width: 640px) {
         .header{ 
-            max-width: 1349px; } 
+            min-width: 623px; } 
 
         .grid{ 
-        	max-width: 1349px; }
+        	min-width: 623px; }
 
 	    .section2{
-	        max-width: 1349px; }
+	        min-width: 623px; }
 
 	    .section3{ 
-	        max-width: 1349px;}
+	        min-width: 623px;}
 
         .section4{
-	        max-width: 1349px; }
+	        min-width: 623px; }
 
 	    .section5{
-	        max-width: 1349px; }
+	        min-width: 623px; }
 
-	    .grid-container3 {
-            max-width: 1349px; }
+	    .grid-container3{
+            min-width: 623px; }
 
         .section6{
-	        max-width: 1349px; }
+	        min-width: 623px; }
 
         .section7{
-            max-width: 1349px; }
+            min-width: 623px; }
 
 	    .footer{
-	        max-width: 1349px; }
-/*Media For 1366px End*/
+	        min-width: 623px; }
+/*Media For 640px End*/
 
