@@ -50,6 +50,14 @@
 
     .nav-first{
 	    color: #00e0d0;}
+    .icon {
+        display: none;}
+    .icondiv{
+        width: 27px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 20px 6px 0;
+    }
 
     .header-title{
 	    display: inline-block;
@@ -647,9 +655,12 @@
 	}
 	}
 @media (max-width: 720px){
-	.list-ul{
+	.nav-list{
 		display: none;
 	}
+    .icon{
+        display: block;
+    }
 }
 @media (max-width: 900px){
 	.logolarge{
