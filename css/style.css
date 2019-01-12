@@ -446,8 +446,7 @@
         padding: 20px;
         border: 1px solid #c6c4c9;
         width: 100%;
-        margin-top: 20px;
-        margin-right:20px;}
+        margin-top: 20px;}
 
     .contact-inp::-webkit-input-placeholder {
         color: #c6c4c9; }
@@ -770,21 +769,31 @@ p h1 h2 h3 {
 	.section7iconswrapper{
 		display: none;
 	}
-}
-@media (max-width: 850px){
 	.section7formwrapper{
 		margin-left: 15px;
 	    max-width: 400px;
 	    text-align: center;
+	    margin-right: auto;
+	    margin-left: auto;
+
+}
+	    
+}
+@media (max-width: 850px){
+	.section7formwrapper{
+	    max-width: 400px;
+	    text-align: center;
+        margin-right: auto;
+	    margin-left: auto;
 	    
 }
 }
 @media (max-width: 495px){
 	.section7formwrapper{
-		margin-left: 15px;
 	    max-width: 350px;
 	    text-align: center;
-	    
+	    margin-right: auto;
+	    margin-left: auto;
 }
 	.section6team{
        display: none;}
@@ -795,7 +804,6 @@ p h1 h2 h3 {
 }
 @media (max-width: 450px){
 	.section7formwrapper{
-		margin-left: 5px;
 	    max-width: 300px;
 	    text-align: center;
 	    justify-content: center;
@@ -804,8 +812,8 @@ p h1 h2 h3 {
 }
 @media (max-width: 440px){
 	.section7formwrapper{
-		margin-left: 10px;
 	    max-width: 275px;
 	    text-align: center;
-	    justify-content: center;
+	    margin-right: auto;
+	    margin-left: auto;
 }
