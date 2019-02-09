@@ -108,7 +108,8 @@
 
     .slider-dot-item.is-active {
       border-color: transparent;
-      background-color: #0ae8d3; }      
+      background-color: #0ae8d3; }
+ 
 /*Header End*/
 
 /*Section 1 Start*/
@@ -659,7 +660,7 @@
 	}
     .icon{
         display: block;
-    }
+    }   
 }
 @media (max-width: 900px){
 	.logolarge{
