@@ -109,7 +109,13 @@
     .slider-dot-item.is-active {
       border-color: transparent;
       background-color: #0ae8d3; }
- 
+    #hamburger_menu{
+        display: none;
+    }
+    #burger-list{
+        display: none;
+    }
+
 /*Header End*/
 
 /*Section 1 Start*/
@@ -653,7 +659,6 @@
     	grid-row-start: 2;
     	grid-row-end: 2;
 	}
-	}
 @media (max-width: 720px){
 	.nav-list{
 		display: none;
@@ -661,7 +666,38 @@
     .icon{
         display: block;
     }   
-}
+    #hamburger_menu{
+        display: none;
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        background-color: white;
+        top: 73px;
+        right: 0;
+    }
+    #hamburger_menu ul{
+        margin-top: 40px;
+    }
+    #burger-list{
+        display: block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        margin: 20px auto 20px auto;
+        list-style-type: none;
+    }
+    #burger-list:hover{
+        color: #00e0d0; }
+
+    #hamburger_menu.active{
+        display: block;
+   }
+   #burger-list.active{
+        display: block;
+    }
+
 @media (max-width: 900px){
 	.logolarge{
 		margin-top: -40px;
